@@ -1,10 +1,42 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE719417-0A19-41FE-AE2A-1E01C2A5A8C1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.gitmessage = .gitmessage
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE = LICENSE
+		nuget.config = nuget.config
+		README.md = README.md
+		SECURITY.md = SECURITY.md
+		StyleCop.json = StyleCop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47E63CEB-EBE2-475D-BA3E-5680AAB86B9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAssistant", "src\FileAssistant\FileAssistant.csproj", "{AF9B6F0E-4756-4B0B-A3E0-47DDEC59C97D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF9B6F0E-4756-4B0B-A3E0-47DDEC59C97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9B6F0E-4756-4B0B-A3E0-47DDEC59C97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9B6F0E-4756-4B0B-A3E0-47DDEC59C97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9B6F0E-4756-4B0B-A3E0-47DDEC59C97D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF9B6F0E-4756-4B0B-A3E0-47DDEC59C97D} = {47E63CEB-EBE2-475D-BA3E-5680AAB86B9F}
 	EndGlobalSection
 EndGlobal
