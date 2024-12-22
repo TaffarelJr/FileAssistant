@@ -32,6 +32,12 @@ or in whatever other Git tool you prefer to use. This
 [Cheat sheet](https://kapeli.com/cheat_sheets/Conventional_Commits.docset/Contents/Resources/Documents/index)
 by Bogdan Popescu can help with the message format if you're new to CC.
 
+## How to build the code
+
+This is just a standard Visual Studio solution.
+[FileAssistant.sln](./FileAssistant.sln) is at the root of the repo.
+Simply open it and build.
+
 ## Community
 
 This project is licensed under the standard [MIT license](./LICENSE).
