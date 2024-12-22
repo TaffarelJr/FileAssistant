@@ -2,6 +2,20 @@
 
 This is an AI assistant for help with file organization.
 
+## Line Width Standards
+
+This repo encourages shorter lines of code
+to facilitate side-by-side comparison during code reviews:
+
+- Under 80 characters is ideal.
+- 100 characters is fine, just not preferred.
+- 120 characters is the max allowed length.
+- Anything over 120 characters must be wrapped.
+
+To help with this, vertical ruler settings have been defined.
+See [`.editorconfig`](./.editorconfig) for more information
+on how to enable them your IDE of choice.
+
 ## Conventional Commits
 
 This repo uses [Conventional Commits](https://www.conventionalcommits.org)
