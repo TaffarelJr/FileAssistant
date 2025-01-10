@@ -5,8 +5,8 @@
       "Meziantou.Analyzer": {
         "type": "Direct",
         "requested": "[2.0.*, )",
-        "resolved": "2.0.183",
-        "contentHash": "19+73xExMyoZxh/3dPvYvqWqpiPFVFdusqd9LSTX6DnwCZ9Jp1gcvplIh9wOe1p72gU7vgkcYKSNKzpAC655Cg=="
+        "resolved": "2.0.185",
+        "contentHash": "/CGwnUxJl/kHjBzu8BQsjiwRe3Fef7+FPJr9FxMov7g3tQUffdJphcmmeDj5uHWa4QJBcWj7Ha1D4lzyyPwS8A=="
       },
       "Microsoft.CodeAnalysis.NetAnalyzers": {
         "type": "Direct",
